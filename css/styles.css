@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', serif;
+  color: #40514e;
+}
+
+h1 {
+  margin:50px auto 0;
+  font-family: 'sacramento', cursive;
+  font-size:5.625rem;
+  color:#66BFBF;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+  color: #66BFBF;
+  padding:10px;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+color: #66BFBF;
+font-weight: bold;
+}
+
+
+.top-container {
+  background-color: #e1f2fb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+text-align: center;
+margin:100px 0;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+padding: 50px 0 20px;
+
+}
+
+
+
+hr{
+  border:dotted #eaf6f6;
+  border-bottom: none;
+  width: 7%;
+  margin:100px auto;
+
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+color:#11999e;
+font-family: 'Montserrat', sans-serif;
+margin:10px 20px;
+text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 220px;
+  top: 80px;
+  width: 160px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 300px;
+  width: 160px;
+}
+
+.farm {
+  width: 550px;
+}
+
+.circular{
+  width:20%;
+  border-radius: 100%;
+
+}
+.beerpic{
+  width:38%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 50px;
+
+}
+
+.ball-games{
+  width:38%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.walk-talk{
+}
+
+.sass{
+  width:38%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 50px;
+
+}
+.christmas{
+  width:38%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 50px;
+}
+
+.contact-message{
+  width:40%;
+  margin: 40px auto 60px; /**** 40 top, auto left, right, 60px bottom **/
+}
+
+.btn:hover{
+  /***<a href="#"class="myButton">VIDEO GALLERY</a>***/
+}
+
+  .btn{
+  	box-shadow: 0px 0px 0px -50px #3dc21b;
+  	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  	background-color:#11cdd4;
+  	border-radius:8px;
+  	border:1px solid #11999e;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+  	font-size:20px;
+  	padding:16px 31px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 0px #2f6627;
+  }
+  .btn:hover {
+  	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  	background-color:#11999e;
+  }
+  .btn:active {
+  	position:relative;
+  	top:1px;
+  }
